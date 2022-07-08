@@ -1,0 +1,55 @@
+.form {
+  text-align: left;
+  display: inline-flexbox;
+}
+
+.logo {
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+  margin-bottom: 5px;
+}
+
+.bx--btn{
+  margin-top: 10px;
+}
+
+.bx--btn.bx--btn--primary{
+  margin-right: 1425px;
+}
+
+.bx--btn.bx--btn--secondary{
+  margin-left: 1425px;
+}
+
+// .intro {
+//   width: 50%;
+//   height: 200px;
+//   display: inline;
+// }
+
+// .tabs {
+//   padding-right: 200px;
+//   text-align: center;
+//   display: inline-block;
+// }
+
+// .h4 {
+//   padding: 5px;
+//   text-align: center;
+// }
+
+// .bx--btn {
+//   position: relative;
+//   right: 250px;
+//   padding: 10px;
+// }
+
+// @media only screen and (min-width: 1500px) {
+//   .workflow {
+//     width: 750px;
+//     right: 500px;
+//     position: relative;
+//   }
+// }
