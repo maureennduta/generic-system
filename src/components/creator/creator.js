@@ -24,10 +24,10 @@ function Creator() {
     <div className="container fill">
       <NavHeader />
       <Content>
-        <div>
+        <div className="creator-form">
           <Form onSubmit={handleSubmit} className="row justify-center">
             <div className="column sm-50 lg-25">
-              <Tile light={false}>
+              <Tile light={false} className="tile">
                 <h3>ABOUT IPI</h3>
                 <br />
                 Thank you so much for joining us The iPi platform is not up just
@@ -37,7 +37,7 @@ function Creator() {
                 going to be a big deal. See you soon?
               </Tile>
             </div>
-            <div className="column sm-50 lg-25">
+            <div className="column sm-50 lg-25" class="input">
               <TextInput
                 helperText=""
                 id="name"
@@ -59,7 +59,7 @@ function Creator() {
                 onChange={(e) => setAddress(e.target.value)}
               />
               <Button
-                size="default"
+                size="field"
                 kind="primary"
                 type="submit"
                 data-testid="submit"
@@ -67,9 +67,9 @@ function Creator() {
                 Submit
               </Button>
             </div>
-            <Footer />
           </Form>
         </div>
+        <Footer />
       </Content>
     </div>
   );

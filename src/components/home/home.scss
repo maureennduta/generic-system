@@ -1,55 +1,35 @@
 .form {
   text-align: left;
   display: inline-flexbox;
+  margin-left: 180px;
+  margin-right: 180px;
+  white-space: "\a";
 }
 
 .logo {
-  border: 1px solid white;
-  border-radius: 4px;
-  padding: 5px;
-  width: 50px;
-  margin-bottom: 5px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 150px;
+  height: auto;
+  display: block;
 }
 
-.bx--btn{
-  margin-top: 10px;
+.bx--btn {
+  border-radius: 5px;
+  margin-top: 5px;
 }
 
-.bx--btn.bx--btn--primary{
-  margin-right: 1425px;
+.bx--btn.bx--btn--primary {
+  margin-left: 3px;
+  margin-right: 1.5px;
 }
 
-.bx--btn.bx--btn--secondary{
-  margin-left: 1425px;
+.bx--btn.bx--btn--secondary {
+  margin-left: 379px;
 }
 
-// .intro {
-//   width: 50%;
-//   height: 200px;
-//   display: inline;
-// }
-
-// .tabs {
-//   padding-right: 200px;
-//   text-align: center;
-//   display: inline-block;
-// }
-
-// .h4 {
-//   padding: 5px;
-//   text-align: center;
-// }
-
-// .bx--btn {
-//   position: relative;
-//   right: 250px;
-//   padding: 10px;
-// }
-
-// @media only screen and (min-width: 1500px) {
-//   .workflow {
-//     width: 750px;
-//     right: 500px;
-//     position: relative;
+// @media only screen and (min-width: 500px) {
+//   .form{
+//     background-color: red;
 //   }
 // }

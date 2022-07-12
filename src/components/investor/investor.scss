@@ -1,13 +1,12 @@
 .investor-form {
-  height: 100%;
-  width: 100%;
-  padding: auto;
+  text-align: left;
   display: inline-flexbox;
-  justify-content: center;
-  margin: 20px;
+  margin-left: 180px;
+  margin-right: 180px;
+  white-space: "\a";
 }
 
-.tile {
-  padding: auto;
-  margin: 10px;
+.bx--btn {
+  border-radius: 5px;
+  margin-bottom: 10px;
 }

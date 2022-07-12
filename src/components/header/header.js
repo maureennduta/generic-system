@@ -22,8 +22,7 @@ const NavHeader = () => (
         <HeaderName href="/" prefix="">
           <img className="image" src={logo} alt="IPI" />
         </HeaderName>
-        <HeaderName href="/" prefix="Intellectual">
-          [Property Investment]
+        <HeaderName href="/" prefix="Intellectual Property Investment">
         </HeaderName>
         <HeaderGlobalBar>
           <span>

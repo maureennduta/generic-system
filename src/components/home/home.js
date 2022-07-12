@@ -13,7 +13,7 @@ function File() {
           <Form className="form">
             <div className="column sm-50 sm-25">
               <div className="img">
-                <img classname="logo" src={iPi} alt="ipi"></img>
+                <img class="logo" src={iPi} alt="ipi"></img>
               </div>
 
               <h2 className="h2">Intellectual Property Investment</h2>
@@ -21,7 +21,7 @@ function File() {
 
             <div className="column sm-50 lg-25">
               <Tile light={false}>
-                <h3>ABOUT IP. Indie</h3>
+                <h3>ABOUT I.P. Indie</h3>
                 <br />
                 I.P. Indie Your own IPO.
                 <br />
@@ -41,16 +41,21 @@ function File() {
               <Tile>
                 <h4>HOW IT WORKS</h4>
                 <br />
-                IPI is a platform that allows users to buy or sell the rights to
-                any piece of intellectual property, online, from anywhere in the
-                world.
+                I.P. Indie is a platform that allows users to buy or sell the
+                rights to any piece of intellectual property, online, from
+                anywhere in the world.
               </Tile>
             </div>
             <div class="column sm-50 lg-25" className="buttons">
-              <Button classname="primary" href="/Investor">
+              <Button size="field" classname="primary" href="/Investor">
                 Create Investor Account
               </Button>
-              <Button classname="secondary" kind="secondary" href="/Creator">
+              <Button
+                size="field"
+                classname="secondary"
+                kind="secondary"
+                href="/Creator"
+              >
                 Create Creator Account
               </Button>
             </div>

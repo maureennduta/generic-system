@@ -59,7 +59,7 @@ const Investor = () => {
                 onChange={(e) => setAddress(e.target.value)}
               />
               <Button
-                size="default"
+                size="field"
                 kind="primary"
                 type="submit"
                 data-testid="submit"
