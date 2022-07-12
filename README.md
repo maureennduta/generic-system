@@ -1,9 +1,6 @@
-### JHPIEGO CSV-DEDUPE USER INTERFACE
+### I.P. INDIE MVP
 ## What is this?
-
-CSV-Dedupe 
-Command line tools for using the dedupe python library for deduplicating CSV files. This file will take you through the installation process.
-
+I.P Indie is an MVP 
 ## Installation
 After pulling from the repository, run the following commands:
 1. yarn
