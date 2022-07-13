@@ -23,18 +23,29 @@ function File() {
               <Tile light={false}>
                 <h3>ABOUT I.P. Indie</h3>
                 <br />
-                I.P. Indie Your own IPO.
-                <br />
-                I.P Indie is a platform that connects Independent creators with
-                Independent investors, from anywhere in the world, with no
-                middlemen involved. Pulp Fiction, the film, IsThis Is It, the
-                music album, Legally Blonde, the book: These are stellar
-                examples of what independent creators can produce with a little
-                bit of support and a little bit of backing.
-                <br />
-                If you would like to be a part of the next great independent
-                work, create an I.P. Indie account today. I.P. Indie
-                Intellectual Property Offerings: Your own IPO.
+                <p>
+                  <h4>I.P. Indie </h4>
+                  Your own IPO.
+                  <br />
+                  <br />
+                  I.P Indie is a platform that connects Independent creators
+                  with Independent investors, from anywhere in the world, with
+                  no middlemen involved.
+                  <br />
+                  <br />
+                  Pulp Fiction, the film, Is This Is It, the music album,
+                  Legally Blonde, the book: These are stellar examples of what
+                  independent creators can produce with a little bit of support
+                  and a little bit of backing.
+                  <br />
+                  <br />
+                  If you would like to be a part of the next great independent
+                  work, create an I.P. Indie account today.
+                  <br />
+                  <br />
+                  <h4>I.P. Indie</h4>
+                  Intellectual Property Offerings: Your own IPO.
+                </p>
               </Tile>
               <br />
               <br />

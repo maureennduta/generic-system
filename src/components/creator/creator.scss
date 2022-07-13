@@ -3,7 +3,10 @@
   display: inline-flexbox;
   margin-left: 180px;
   margin-right: 180px;
-  white-space: "\a";
+}
+
+.p {
+  white-space: pre;
 }
 
 .bx--btn {

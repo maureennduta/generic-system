@@ -30,11 +30,20 @@ const Investor = () => {
               <Tile light={false} className="tile">
                 <h3>ABOUT IPI</h3>
                 <br />
-                Thank you so much for joining us. The iPi platform is not up
-                just yet, BUT! You must sign up for the launch below. We are
-                here to connect you to the newest and greatest Assets in the
-                Intellectual Property, from around the world, and wwith no
-                middlemen. This is going to be a big deal. See you soon?
+                <p>
+                  Thank you so much for joining us.
+                  <br />
+                  <br />
+                  The iPi platform is not up just yet, BUT! You must sign up for
+                  the launch below.
+                  <br />
+                  We are here to connect you to the newest and greatest Assets
+                  in the Intellectual Property, from around the world, and with
+                  no middlemen.
+                  <br />
+                  <br />
+                  This is going to be a big deal. See you soon?
+                </p>
               </Tile>
             </div>
             <div className="column sm-50 lg-25" class="input">

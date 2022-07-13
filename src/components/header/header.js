@@ -27,7 +27,7 @@ const NavHeader = () => (
         <HeaderGlobalBar>
           <span>
             <HeaderName href="/" prefix="">
-              iPi
+              I.P. Indie.
             </HeaderName>
           </span>
         </HeaderGlobalBar>
