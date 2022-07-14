@@ -78,8 +78,8 @@ function Creator() {
             </div>
           </Form>
         </div>
-        <Footer />
       </Content>
+      <Footer />
     </div>
   );
 }

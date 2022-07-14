@@ -78,8 +78,8 @@ const Investor = () => {
             </div>
           </Form>
         </div>
-        <Footer />
       </Content>
+      <Footer />
     </div>
   );
 };

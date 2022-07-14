@@ -1,15 +1,15 @@
 .form {
   text-align: left;
-  display: inline-flexbox;
+  display: grid;
   margin-left: 180px;
-  margin-right: 180px;  
+  margin-right: 180px;
 }
 
-.form h4{
-  font-weight:500;
+.form h4 {
+  font-weight: 500;
 }
 
-.form p{
+.form p {
   padding: 35px 35px;
 }
 
@@ -35,8 +35,18 @@
   margin-left: 379px;
 }
 
-// @media only screen and (min-width: 500px) {
-//   .form{
-//     background-color: red;
+@media only screen and (min-width: 600px) {
+  .columns {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+// @media only screen and (max-width: 600px) {
+//   .columns {
+//     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+//   }
+
+//   .bx--btn {
+//     display: inline-flexbox;
 //   }
 // }
