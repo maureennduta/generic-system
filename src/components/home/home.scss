@@ -32,21 +32,30 @@
 }
 
 .bx--btn.bx--btn--secondary {
-  margin-left: 379px;
+  margin-left: 396px;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media all and (max-width: 600px) {
+  .columns {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .form {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .bx--btn {
+    display: block;
+    margin: 0.4em auto;
+  }
+  .bx--btn.bx--btn--secondary {
+    margin-left: 6px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .columns {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
-
-// @media only screen and (max-width: 600px) {
-//   .columns {
-//     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-//   }
-
-//   .bx--btn {
-//     display: inline-flexbox;
-//   }
-// }
