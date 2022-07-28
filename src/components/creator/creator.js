@@ -28,21 +28,34 @@ function Creator() {
           <Form onSubmit={handleSubmit} className="row justify-center">
             <div className="column sm-50 lg-25">
               <Tile light={false} className="tile">
-                <h3>ABOUT IPI</h3>
+                <h3>ABOUT I.P. Indie</h3>
                 <br />
                 <p>
                   Thank you so much for joining us.
                   <br />
                   <br />
-                  The iPi platform is not up just yet, BUT! You must sign up for
-                  the launch below.
-                  <br />
-                  We are here to connect you to Capital Investements into the
-                  Intellectual Property, from around the world, and with no
-                  middlemen.
+                  Our platform is not up yet!
                   <br />
                   <br />
-                  This is going to be a big deal. See you soon?
+                  BUT! You must sign up for our launch below.
+                  <br />
+                  <br />
+                  We are here to connect you and your Brand to the widest
+                  selection of Private Investors that history has ever seen,
+                  from around the world, with no middlemen.
+                  <br />
+                  This is going to be a big deal. A very big deal.
+                  <br />
+                  <br />
+                  We would love nothing more than to empower with you.
+                  <br />
+                  <br />
+                  To receive our launch timeline, Please sign up below.
+                  <br />
+                  <br />
+                  Thank you.
+                  <br />
+                  <em>~ The Team at I.P. Indie</em>
                 </p>
               </Tile>
             </div>
