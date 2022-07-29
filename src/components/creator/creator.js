@@ -47,7 +47,7 @@ function Creator() {
                   This is going to be a big deal. A very big deal.
                   <br />
                   <br />
-                  We would love nothing more than to empower with you.
+                  We would love nothing more than to empower you.
                   <br />
                   <br />
                   To receive our launch timeline, Please sign up below.
