@@ -1,6 +1,6 @@
-### I.P. INDIE MVP
+### GENERIC SYSTEMM
 ## What is this?
-I.P Indie is an MVP 
+Frontend Generic HealthCare Template
 ## Installation
 After pulling from the repository, run the following commands:
 1. yarn
