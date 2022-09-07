@@ -1,4 +1,5 @@
 import "./App.scss";
+import Login from "./components/login/login";
 import Home from "./components/home/home";
 import Investor from "./components/investor/investor";
 import Creator from "./components/creator/creator";
@@ -8,7 +9,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/Investor" element={<Investor />} />
         <Route path="/Creator" element={<Creator />} />
       </Routes>

@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Content, Form, Tile } from "carbon-components-react";
 import NavHeader from "../header/header";
 import Footer from "../footer/footer";
-import iPi from "../../IPIndie_Logo.png";
+import gs from "../../gs.png";
 
 function File() {
   return (
@@ -13,10 +13,10 @@ function File() {
           <Form className="form">
             <div className="column sm-50 sm-25">
               <div className="img">
-                <img class="logo" src={iPi} alt="ipi"></img>
+                <img class="logo" src={gs} alt="gs"></img>
               </div>
 
-              <h2 className="h2">Intellectual Property Investment</h2>
+              <h2 className="h2">Generic System</h2>
             </div>
 
             <div className="column sm-50 lg-25">

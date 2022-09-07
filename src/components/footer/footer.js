@@ -23,7 +23,7 @@ const Footer = () => (
             </div>
             <p class="copyright">
               {" "}
-              <h3>ⓒ Intellectual Property Offerings: Your own IPO</h3>
+              <h3>ⓒ Generic System 2022</h3>
             </p>
           </div>
         </footer>
