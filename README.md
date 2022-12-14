@@ -1,4 +1,4 @@
-### GENERIC SYSTEMM
+### GENERIC SYSTEM
 ## What is this?
 Frontend Generic HealthCare Template
 ## Installation
