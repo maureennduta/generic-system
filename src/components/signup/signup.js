@@ -10,7 +10,7 @@ import {
 // import Footer from "../footer/footer";
 // import iPi from "../../IPIndie_Logo.png";
 
-function Login() {
+function Signup() {
   const [Username, setUsername] = useState("");
   const [Address, setAddress] = useState("");
   const handleSubmit = (event) => {
@@ -30,7 +30,7 @@ function Login() {
                 <img class="logo" src={iPi} alt="ipi"></img>
               </div> */}
 
-              <h2 className="h2">LOGIN</h2>
+              <h2 className="h2">SIGN UP</h2>
             </div>
             <div className="column sm-50 lg-25">
               <Tile light={false}>
@@ -60,7 +60,7 @@ function Login() {
               <Button size="field" classname="primary" href="/Home">
                 Login
               </Button>
-              <Button size="field" classname="secondary" href="/Signup">
+              <Button size="field" classname="secondary" href="/">
                 Sign Up
               </Button>
             </div>
@@ -72,4 +72,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Signup;

@@ -1,0 +1,55 @@
+.form {
+    text-align: left;
+    display: grid;
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: red;
+  }
+  
+  .form h4 {
+    font-weight: 500;
+  }
+  
+  .form p {
+    padding: 35px 35px;
+  }
+  
+  .bx--btn {
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .bx--btn.bx--btn--primary {
+    margin-left: 3px;
+    margin-right: 1.5px;
+  }
+  
+  .bx--btn.bx--btn--secondary {
+    margin-left: 379px;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media all and (max-width: 600px) {
+    .columns {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .form {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .bx--btn {
+      display: block;
+      margin: 0.4em auto;
+    }
+    .bx--btn.bx--btn--secondary {
+      margin-left: 6px;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .columns {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+  
