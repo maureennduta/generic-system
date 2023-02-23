@@ -57,7 +57,7 @@ function Login() {
               </Tile>
             </div>
             <div class="column sm-50 lg-25" className="buttons">
-              <Button size="field" classname="primary" href="/Home">
+              <Button size="field" classname="primary" href="/Landing">
                 Login
               </Button>
               <Button size="field" classname="secondary" href="/Signup">

@@ -21,22 +21,12 @@ function File() {
 
             <div className="column sm-50 lg-25">
               <Tile light={false}>
-                <h3>ABOUT I.P. Indie</h3>
+                <h3>GENERIC</h3>
                 <br />
                 <p>
-                  <h4>I.P. Indie </h4>
-                  Your own IPO.
                   <br />
                   <br />
-                  I.P Indie is a platform that connects Independent creators
-                  with Independent investors, from anywhere in the world, with
-                  no middlemen involved.
-                  <br />
-                  <br />
-                  Pulp Fiction, the film, Is This Is It, the music album,
-                  Legally Blonde, the book: These are stellar examples of what
-                  independent creators can produce with a little bit of support
-                  and a little bit of backing.
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                   <br />
                   <br />
                   If you would like to be a part of the next great independent
@@ -50,11 +40,7 @@ function File() {
               <br />
               <br />
               <Tile>
-                <h4>HOW IT WORKS</h4>
-                <br />
-                I.P. Indie is a platform that allows users to buy or sell the
-                rights to any piece of intellectual property, online, from
-                anywhere in the world.
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
               </Tile>
             </div>
             <div class="column sm-50 lg-25" className="buttons">

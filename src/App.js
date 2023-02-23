@@ -4,6 +4,7 @@ import Home from "./components/home/home";
 import Investor from "./components/investor/investor";
 import Creator from "./components/creator/creator";
 import Signup from "./components/signup/signup";
+import Landing from "./components/landing page/landingpage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         <Route path="/Home" element={<Home />} />
         <Route path="/Investor" element={<Investor />} />
         <Route path="/Creator" element={<Creator />} />
-        <Route path="/Signup" element={<Signup/>} />
+        <Route path="/Signup" element={<Signup />} />
+        <Route path="/Landing" element={<Landing />} />
       </Routes>
     </Router>
   );

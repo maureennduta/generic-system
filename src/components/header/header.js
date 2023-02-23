@@ -42,7 +42,7 @@ const NavHeader = () => (
             isActive={isSideNavExpanded}
           />
           <HeaderName href="#" prefix="">
-            <img className="image" src={gs} alt="GS" />
+            {/* <img className="image" src={gs} alt="GS" /> */}
           </HeaderName>
           <HeaderName href="#" prefix="Generic">
             [System]
@@ -56,7 +56,8 @@ const NavHeader = () => (
               </HeaderName>
             </span>
           </HeaderGlobalBar>
-          <SideNav aria-label="Side navigation" expanded={isSideNavExpanded}>
+        </Header>
+        <SideNav aria-label="Side navigation" expanded={isSideNavExpanded}>
             <SideNavItems>
               <SideNavMenu renderIcon={Fade16} title="Category title">
                 <SideNavMenuItem href="#">Link</SideNavMenuItem>
@@ -83,7 +84,7 @@ const NavHeader = () => (
               </SideNavLink>
             </SideNavItems>
           </SideNav>
-        </Header>
+
       </>
     )}
   />
